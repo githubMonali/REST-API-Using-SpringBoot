@@ -25,11 +25,6 @@ public class MainController {
 	private Services services;
 	
 	
-	@GetMapping("/bookregform")
-	public String register()
-	{
-		return "bookregistration";
-	}
 	
 	@GetMapping("/books")
 	public ResponseEntity<List<Book>> getBook()
